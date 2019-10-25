@@ -6,4 +6,4 @@
 
 # 流程圖
 
-![流程圖](https://imgur.com/5621193a-3d11-4429-b04a-fa04d7042a2c)
+![流程圖](https://github.com/wangweihsin/learning-note/blob/master/week5/%E6%B5%81%E7%A8%8B%E5%9C%96.png?raw=true)
