@@ -6,4 +6,4 @@
 
 # 流程圖
 
-![流程圖](blob:https://imgur.com/5621193a-3d11-4429-b04a-fa04d7042a2c)
+![流程圖](https://imgur.com/5621193a-3d11-4429-b04a-fa04d7042a2c)
