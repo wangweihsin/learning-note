@@ -11,6 +11,12 @@
 
 2.[MergeSort 筆記]()
 
+3.[HeapSort 程式碼]()
+
+4.[HeapSort 筆記]()
+
+5.[MergeSort與HeapSort比較]()
+
 # 本週進度
 
 1.[leetcode-Q1](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD%3Aleetcode/twosum.ipynb)
