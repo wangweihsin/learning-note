@@ -3,13 +3,13 @@
 
 此為資料結構課程的筆記
 
-# Homework
+# Homework2(11/8) 助教請看這
 
-1.[QuickSort](https://github.com/wangweihsin/learning-note/blob/master/week5/%E4%BD%9C%E6%A5%ADQuickSort.ipynb)
+- [HW2資料夾]()
 
-2.[QuickSort(網頁版)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/week5/%E4%BD%9C%E6%A5%ADQuickSort.ipynb)
+1.[MergeSort 程式碼]()
 
-3.[流程圖](https://github.com/wangweihsin/learning-note/blob/master/week5/%E6%B5%81%E7%A8%8B%E5%9C%96.png)
+2.[MergeSort 筆記]()
 
 # 本週進度
 
