@@ -5,11 +5,11 @@
 
 # Homework2(11/8) 助教請看這
 
-[HW2資料夾]()
+[HW2資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW2)
 
 1.[MergeSort 程式碼]()
 
-2.[MergeSort 筆記](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/Merge%20Sort%E7%AD%86%E8%A8%98.ipynb)
+2.[MergeSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/Merge%20Sort%E7%AD%86%E8%A8%98.ipynb)
 
 3.[HeapSort 程式碼]()
 
