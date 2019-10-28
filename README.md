@@ -13,7 +13,7 @@
 
 3.[HeapSort 程式碼]
 
-4.[HeapSort 筆記]
+4.[HeapSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/Heap%20Sort%E7%AD%86%E8%A8%98.ipynb)
 
 5.[MergeSort與HeapSort比較]
 
