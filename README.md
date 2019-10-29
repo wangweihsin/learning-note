@@ -3,7 +3,7 @@
 
 此為資料結構課程的筆記
 
-# Homework2(11/8) 助教請看這
+# Homework2(11/8) 
 
 [HW2資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW2)
 
@@ -16,6 +16,10 @@
 4.[HeapSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/Heap%20Sort%E7%AD%86%E8%A8%98.ipynb)
 
 5.[MergeSort與HeapSort比較]
+
+# HW1重寫<---助教看這
+
+1.[QS2](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/week5/quicksort2.ipynb)
 
 # 本週進度
 
