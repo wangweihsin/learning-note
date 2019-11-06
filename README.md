@@ -7,7 +7,7 @@
 
 [HW2資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW2)
 
-1.[MergeSort 程式碼]
+1.[MergeSort 程式碼](https://github.com/wangweihsin/learning-note/blob/master/HW2/merge_sort_06170115.py)
 
 2.[MergeSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/merge%20sort%E7%AD%86%E8%A8%98.ipynb)
 
@@ -19,4 +19,4 @@
 
 # 本週進度
 
-1.[leetcode-Q1](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD%3Aleetcode/twosum.ipynb)
+[作業](https://github.com/wangweihsin/learning-note/tree/master/HW2)
