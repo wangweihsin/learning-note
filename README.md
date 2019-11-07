@@ -3,7 +3,7 @@
 
 此為資料結構課程的筆記
 
-# Homework2(11/8) <--助教看這裡
+# H2(11/8) <--助教看這裡
 
 [HW2資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW2)
 
