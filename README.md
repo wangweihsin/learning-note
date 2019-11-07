@@ -15,7 +15,7 @@
 
 4.[HeapSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/HeapSort%20%E7%AD%86%E8%A8%98.ipynb)
 
-5.[MergeSort與HeapSort比較]
+5.[MergeSort與HeapSort比較](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/merge%20sort%E8%88%87heap%20sort%E6%AF%94%E8%BC%83.ipynb)
 
 # 本週進度
 
