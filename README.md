@@ -11,7 +11,7 @@
 
 2.[MergeSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/merge%20sort%E7%AD%86%E8%A8%98.ipynb)
 
-3.[HeapSort 程式碼]
+3.[HeapSort 程式碼](https://github.com/wangweihsin/learning-note/blob/master/HW2/heap_sort_06170115.py)
 
 4.[HeapSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/Heap%20Sort%E7%AD%86%E8%A8%98.ipynb)
 
