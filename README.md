@@ -19,4 +19,4 @@
 
 # 本週進度
 
-[作業](https://github.com/wangweihsin/learning-note/tree/master/HW2)
+HW2作業
