@@ -3,20 +3,16 @@
 
 此為資料結構課程的筆記
 
-# H2(11/8) <--助教看這裡
+# HW3(11/22) <--助教看這裡
 
-[HW2資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW2)
+[HW3資料夾]()
 
-1.[MergeSort 程式碼](https://github.com/wangweihsin/learning-note/blob/master/HW2/merge_sort_06170115.py)
+1.[Binary search tree 程式碼]()
 
-2.[MergeSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/merge%20sort%E7%AD%86%E8%A8%98.ipynb)
+2.[Binary search tree(流程圖)]()
 
-3.[HeapSort 程式碼](https://github.com/wangweihsin/learning-note/blob/master/HW2/heap_sort_06170115.py)
-
-4.[HeapSort 筆記(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/HeapSort%20%E7%AD%86%E8%A8%98.ipynb)
-
-5.[MergeSort與HeapSort比較](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW2/merge%20sort%E8%88%87heap%20sort%E6%AF%94%E8%BC%83.ipynb)
+3.[Binary search tree新增、刪除、查詢說明]()
 
 # 本週進度
 
-HW2作業
+HW作業
