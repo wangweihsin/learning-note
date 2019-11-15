@@ -5,7 +5,7 @@
 
 # HW3(11/22) <--助教看這裡
 
-[HW3資料夾]()
+[HW3資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW3)
 
 1.[Binary search tree 程式碼]
 
