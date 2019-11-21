@@ -7,7 +7,7 @@
 
 [HW3資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW3)
 
-1.[Binary search tree 程式碼]
+1.[Binary search tree 程式碼](https://github.com/wangweihsin/learning-note/blob/master/HW3/binary_search_tree_06170115.py)
 
 2.[Binary search tree(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW3/binary%20search%20tree%E7%AD%86%E8%A8%98.ipynb)
 
