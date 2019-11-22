@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 class TreeNode(object):
@@ -45,34 +45,41 @@ class Solution(object):
             return None
 
     def delete(self, root, target):
-        if root: #如果root存在
-            if target>root.val: #往右
-                if root.right: #右邊存在
-                    return Solution().delete(root.right,target)
-            elif target<root.val: #往左
-                 if root.left: #左邊存在
-                    return Solution().delete(root.left,target)
-            else: #等於的話
-                if root.right is None and root.left is None: #如果他沒有左右子節點
-                        root.val = None #把root刪掉
-                return root
-                if root.left: #如果只有左邊
-                    if root.right is None:
-                        root=root.left #替換成左邊
-                        root.left.val==None
-                elif root.right: #如果只有右邊
-                    if root.left is None:
-                        root=root.right #替換成左邊
-                        root.right.val==None
-                elif root.right and root.left: #如果兩邊都在
-                    root.val = self.min(root.right).val#此處找最大的最小
-
-
-    def min(self,root):
-        if root.left is None: #如果左邊沒有值了
-            return root 
-        else: #左邊還有值就回傳
-            return Solution().min(root.left)
+        father=None
+        node=root
+        while node and node.val!=target:
+            father=node
+            if target>node.val:#往右
+                node=node.right
+            elif target<node.val:#往左
+                node=node.left
+            #如果相等就會跳出去 此時father=5 node=3
+            
+        if node is None: #要記得設node沒有值跳出來的狀況
+            return root
+        
+        if node.right is None and node.left is None: #沒有子節點
+            node=None #直接刪除
+            return root
+        if node.left: #只有左節點
+            if node.right is None:
+                if target< father.val:
+                    father.left=node.left
+                    return self.delete(root,target)
+        if node.right: #只有右節點
+            if node.left is None:
+                if target> father.val:
+                    father.right=node.right
+                    return self.delete(root,target)
+        if node.right and node.left: #如果兩邊存在
+            minnode= self.findmin(node.right)
+            node=minnode
+        return root
+    def findmin(self,root):
+        if root.left:
+            return self.findmin(node.right)
+        else:
+            return root
     def modify(self, root, target, new_val):
         if root: #如果root存在
             if target ==root.val:
@@ -80,7 +87,6 @@ class Solution(object):
             else:
                 Solution().insert(root,new_val)
                 return Solution().delete(root,target)
-            
 #參考:https://www.itread01.com/content/1546379497.html
 #http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html
 #https://www.youtube.com/watch?v=YlgPi75hIBc&t=
