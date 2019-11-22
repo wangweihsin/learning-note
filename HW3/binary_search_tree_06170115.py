@@ -78,6 +78,8 @@ class Solution(object):
         if node.right and node.left: #如果兩邊存在
             minnode= self.findmin(node.right)
             node=minnode
+            if target> father.val:
+                father.right=node
         return root
     def findmin(self,root):
         if root.left:
