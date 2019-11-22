@@ -70,29 +70,41 @@ class Solution(object):
                 if target< father.val:
                     father.left=node.left
                     return self.delete(root,target)
+                else:
+                    father.right=node.right
+                    return self.delete(root,target)
         if node.right: #只有右節點
             if node.left is None:
                 if target> father.val:
                     father.right=node.right
                     return self.delete(root,target)
+                else:
+                    fether.left=node.left
+                    return self.delete(root,target)
+                    
         if node.right and node.left: #如果兩邊存在
             minnode= self.findmin(node.right)
             node=minnode
             if target> father.val:
                 father.right=node
+            else:
+                father.left=node
+            
         return root
     def findmin(self,root):
         if root.left:
             return self.findmin(node.right)
         else:
             return root
-    def modify(self, root, target, new_val):
-        if root: #如果root存在
-            if target ==root.val:
-                return root
-            else:
+    def modify(self,root,target,new_val):
+        if root:
+            if target != new_val: #如果要修的不是要新增的      
                 Solution().insert(root,new_val)
                 return Solution().delete(root,target)
+            else:
+                return root
+        else:
+            return root
 #參考:https://www.itread01.com/content/1546379497.html
 #http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html
 #https://www.youtube.com/watch?v=YlgPi75hIBc&t=
