@@ -57,10 +57,14 @@ class Solution(object):
             
         if node is None: #要記得設node沒有值跳出來的狀況
             return root
-        
-        if node.right is None and node.left is None: #沒有子節點
+        if node.right is None and node.left is None:#沒有子節點
             node=None #直接刪除
+            if target>father.val:
+                father.right=node
+            else:
+                father.left=node
             return root
+
         if node.left: #只有左節點
             if node.right is None:
                 if target< father.val:
