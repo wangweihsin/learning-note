@@ -98,11 +98,8 @@ class Solution(object):
             return root
     def modify(self,root,target,new_val):
         if root:
-            if target != new_val: #如果要修的不是要新增的      
-                Solution().insert(root,new_val)
-                return Solution().delete(root,target)
-            else:
-                return root
+            Solution().insert(root,new_val)
+            return Solution().delete(root,target)
         else:
             return root
 #參考:https://www.itread01.com/content/1546379497.html
