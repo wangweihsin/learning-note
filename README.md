@@ -15,4 +15,4 @@
 
 # 本週進度
 
-HW作業
+Codesignal Q7
