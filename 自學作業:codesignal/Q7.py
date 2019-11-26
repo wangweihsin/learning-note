@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
+def simpleSort(arr):
+    n = len(arr)
+    for i in range(n):
+        j = 0
+        stop = n - i
+        while j < stop - 1:
+            if arr[j] > arr[j + 1]:
+                a = arr[j + 1]
+                arr[j + 1]=arr[j]
+                arr[j]=a     
+            j += 1
+    return arr
+
