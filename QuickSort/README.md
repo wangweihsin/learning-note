@@ -7,3 +7,9 @@
 # 流程圖
 
 ![流程圖](https://github.com/wangweihsin/learning-note/blob/master/week5/%E6%B5%81%E7%A8%8B%E5%9C%96.png?raw=true)
+
+# 參考資料
+
+http://alrightchiu.github.io/SecondRound/comparison-sort-quick-sortkuai-su-pai-xu-fa.html
+
+https://zh.wikipedia.org/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F
