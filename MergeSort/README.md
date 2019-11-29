@@ -6,7 +6,9 @@
 
 ![流程圖](https://github.com/wangweihsin/learning-note/blob/master/%E5%9C%96%E7%89%87/MergeSort%E6%B5%81%E7%A8%8B%E5%9C%96.jpg?raw=true)
 
-# Merge Sorty主要步驟就是1.拆分2.合併
+# 分解與合併
+
+Merge Sorty主要步驟就是1.拆分2.合併
 
 ## 分解
 
