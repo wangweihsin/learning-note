@@ -26,7 +26,7 @@
 
 不斷重複
 
-#參考
+# 參考
 
 http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html
 
