@@ -13,3 +13,5 @@
 # 本週進度
 
 [Leetcode-7. Reverse Integer](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/7.%20Reverse%20Integer.ipynb)
+
+[Leetcode-9. Palindrome Numberr](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/9.%20Palindrome%20Number.ipynb)
