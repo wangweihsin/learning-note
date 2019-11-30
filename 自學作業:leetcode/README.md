@@ -2,7 +2,7 @@
 
 我選擇先從easy的題目開始解
 
-## Two Sum
+## 1. Two Sum
 
 [Two Sum](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/twosum.ipynb)
 
