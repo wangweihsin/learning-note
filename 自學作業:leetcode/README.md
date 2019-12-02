@@ -20,3 +20,9 @@
 [Palindrome Number](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/9.%20Palindrome%20Number.ipynb)
 
 [Palindrome Number(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/9.%20Palindrome%20Number.py)
+
+## 13. Roman to Integer
+
+[Roman to Integer](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/13.%20Roman%20to%20Integer.ipynb)
+
+[Roman to Integer(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/13.%20Roman%20to%20Integer.py)
