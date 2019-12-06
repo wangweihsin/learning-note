@@ -11,8 +11,8 @@ class ListNode:
         self.next = None #linklist的點
 
 class MyHashSet:
-    def __init__(self, capacity=5):
-        self.capacity = capacity
+    def __init__(self, capacity):
+        self.capacity = capacity #這邊要可更改 所以不要設成=5
         self.data = [None] * capacity #要存放的抽屜
         
     def md5(self,key):
@@ -20,7 +20,7 @@ class MyHashSet:
         h.update(key.encode("utf-8"))
         x= h.hexdigest()
         x=int(h.hexdigest(),16) #轉成10進位
-        return x%5 #回傳除以5的餘數
+        return x%self.capacity #回傳除以capacity的餘數 這樣就可以更改
     
     def add(self,key):
         index=self.md5(key) #索引號就是剛剛md5轉完的餘數
@@ -53,7 +53,7 @@ class MyHashSet:
         index=self.md5(key) #索引號就是剛剛md5轉完的餘數
         if self.contains(key)==True: #如果裡面有要刪的數字
             if self.data[index].val==key: #如果第一個就是要刪掉的數
-                self.data[index]=None
+                self.data[index]=None #刪掉他
             else: #如果不是第一個就往後找
                 y=self.data[index]
                 while y.next: #當他下一個存在
