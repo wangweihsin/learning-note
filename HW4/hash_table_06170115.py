@@ -11,7 +11,7 @@ class ListNode:
         self.next = None #linklist的點
 
 class MyHashSet:
-    def __init__(self, capacity):
+    def __init__(self, capacity=5):
         self.capacity = capacity #這邊要可更改 所以不要設成=5
         self.data = [None] * capacity #要存放的抽屜
         
