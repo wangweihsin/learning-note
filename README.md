@@ -5,11 +5,11 @@
 
 # HW4(12/06) <--助教看這裡
 
-[HW4資料夾]
+[HW4資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW4)
 
-1.[Hash Table(程式碼)]
+1.[Hash Table(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW4/hash_table_06170115.py)
 
-2.[Hash Table(流程圖)]
+2.[Hash Table(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW4/Hash%20Table%E7%AD%86%E8%A8%98.ipynb)
 
 # 自學作業
 
