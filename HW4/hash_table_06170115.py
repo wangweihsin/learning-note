@@ -19,11 +19,12 @@ class MyHashSet:
         h = MD5.new()
         h.update(key.encode("utf-8"))
         x= h.hexdigest()
-        x=int(h.hexdigest(),16) #轉成10進位
-        return x%self.capacity #回傳除以capacity的餘數 這樣就可以更改
+        x=int(x,16) #轉成10進位
+        return x #回傳加密後的 等下要用這個狀態存進去
     
     def add(self,key):
-        index=self.md5(key) #索引號就是剛剛md5轉完的餘數
+        key=self.md5(key)
+        index=key%self.capacity #索引號就是剛剛md5轉完的餘數
         if self.data[index]: #如果裡面有東西
             y=self.data[index]
             while y.next: #當他下一個存在
@@ -31,10 +32,11 @@ class MyHashSet:
             y.next=ListNode(key)     #如果下一個不存在就變成新的點
         else: #裡面沒東西就建立點
             self.data[index]=ListNode(key) 
-        return 
+        return self.data[index].val
     
     def contains(self, key):
-        index=self.md5(key) #索引號就是剛剛md5轉完的餘數
+        key=self.md5(key)
+        index=key%self.capacity #索引號就是剛剛md5轉完的餘數
         if self.data[index]:#如果裡面有東西
             if self.data[index].val==key:#如果裡面就是key
                 return True
@@ -50,18 +52,25 @@ class MyHashSet:
             return False
  
     def remove(self, key):
-        index=self.md5(key) #索引號就是剛剛md5轉完的餘數
+        x=self.md5(key)
+        index=x%self.capacity #索引號就是剛剛md5轉完的餘數
         if self.contains(key)==True: #如果裡面有要刪的數字
-            if self.data[index].val==key: #如果第一個就是要刪掉的數
-                self.data[index]=None #刪掉他
+            if self.data[index].val==x: #如果第一個就是要刪掉的數
+                if self.data[index].next: #如果他下一個存在
+                    self.data[index]=self.data[index].next #頭就變下一個不然找不到下一個東西
+                else: #如果他下一個不存在就直接刪掉
+                    self.data[index]=None #刪掉他
             else: #如果不是第一個就往後找
                 y=self.data[index]
                 while y.next: #當他下一個存在
-                    if y.next.val==key: #如果下一個就是key
-                        y.next=None #刪掉下一個
+                    if y.next.val==x: #如果下一個就是key
+                        if y.next.next: #如果key後面有東西
+                            y.next=y.next.next #就變成下下個
+                        else: #key後面沒東西
+                            y.next=None #刪掉
                     else:
                         y=y.next #不是的話頭就變下一個繼續找  
-            return
+            return self.remove(key) #避免重複值
         else: #沒要刪的
             return False
         
