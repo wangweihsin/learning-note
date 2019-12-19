@@ -3,13 +3,13 @@
 
 此為資料結構課程的筆記
 
-# HW4(12/20) <--助教看這裡
+# HW5(12/20) <--助教看這裡
 
 [HW5資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW5)
 
-1.[Hash Table(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW5/BFS_06170115.py)
+1.[BFS(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW5/BFS_06170115.py)
 
-2.[Hash Table(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW5/Breadth-First%20Search%E7%AD%86%E8%A8%98.ipynb)
+2.[BFS(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW5/Breadth-First%20Search%E7%AD%86%E8%A8%98.ipynb)
 
 # 自學作業
 
