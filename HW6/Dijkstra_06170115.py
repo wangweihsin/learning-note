@@ -54,18 +54,30 @@ class Graph():
     def addEdge(self,u,v,w): 
         self.graph.append([u,v,w])
     def Kruskal(self):
-        v=[]
-        for i in range(self.V):
-            v.append(i)
+        
         p=[-1]*self.V #parent設-1
         self.graph=sorted(self.graph,key=lambda item:item[2]) #照權重排列
-        #for j in range(len(self.graph)):
-        a=self.graph[0][0]#第一小的權重
-        b=self.graph[0][1]
-        p[a]=a
-        p[b]=a
         end={}
-        end[str(a)+"-"+str(b)]=self.graph[0][2]
+        for i in range(len(self.graph)):
+            a=self.graph[i][0]#第一小的權重
+            b=self.graph[i][1]
+            if p[a] and p[b] == -1:
+                p[a]=a
+                p[b]=a
+                end[str(a)+"-"+str(b)]=self.graph[i][2]
+                
+            if p[a]==-1:
+                if p[b]!=-1:
+                    p[a]=a
+                    for j in p:
+                        if p[j]==p[b]:
+                            p[j]=a
+                            p[b]=a
+                    end[str(a)+"-"+str(b)]=self.graph[i][2]
+            if p[a]!=-1:
+                if p[b]==-1:
+                    p[b]=p[a]
+                    end[str(a)+"-"+str(b)]=self.graph[i][2]
         return end
 #參考:https://www.geeksforgeeks.org/printing-paths-dijkstras-shortest-path-algorithm/
 #https://www.youtube.com/watch?v=9wV1VxlfBlI
