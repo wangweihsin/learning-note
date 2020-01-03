@@ -3,13 +3,13 @@
 
 此為資料結構課程的筆記
 
-# HW5(12/20) <--助教看這裡
+# HW6(1/3) <--助教看這裡
 
-[HW5資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW5)
+[HW6資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW6)
 
-1.[BFS(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW5/BFS_06170115.py)
+1.[Dijkstra(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra_06170115.py)
 
-2.[BFS(流程圖)](https://nbviewer.jupyter.org/github/wangweihsin/learning-note/blob/master/HW5/Breadth-First%20Search%E7%AD%86%E8%A8%98.ipynb)
+2.[Dijkstra(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra%26Kruskal%E7%AD%86%E8%A8%98.ipynb)
 
 # 自學作業
 
