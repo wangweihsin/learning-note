@@ -51,6 +51,22 @@ class Graph():
         for d in range(len(self.graph[0])): #看他一行有幾個數字
             end[str(d)]=distance[d] #先建立在字典裡 後面的值先寫None之後補
         return end
+    def addEdge(self,u,v,w): 
+        self.graph.append([u,v,w])
+    def Kruskal(self):
+        v=[]
+        for i in range(self.V):
+            v.append(i)
+        p=[-1]*self.V #parent設-1
+        self.graph=sorted(self.graph,key=lambda item:item[2]) #照權重排列
+        #for j in range(len(self.graph)):
+        a=self.graph[0][0]#第一小的權重
+        b=self.graph[0][1]
+        p[a]=a
+        p[b]=a
+        end={}
+        end[str(a)+"-"+str(b)]=self.graph[0][2]
+        return end
 #參考:https://www.geeksforgeeks.org/printing-paths-dijkstras-shortest-path-algorithm/
 #https://www.youtube.com/watch?v=9wV1VxlfBlI
 #http://design2u.me/blog/33/python-list-%E4%B8%B2%E5%88%97-%E8%88%87-dictionary-%E5%AD%97%E5%85%B8-%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4
