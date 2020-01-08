@@ -26,3 +26,9 @@
 [Roman to Integer](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/13.%20Roman%20to%20Integer.ipynb)
 
 [Roman to Integer(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/13.%20Roman%20to%20Integer.py)
+
+## 14. Longest Common Prefix
+
+[Longest Common Prefix](https://github.com/wangweihsin/learning-note/blob/master/Leetcode/14.%20Longest%20Common%20Prefix.ipynb)
+
+[Longest Common Prefix(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/Leetcode/14%23_LongestCommonPrefix_06170115.py)
