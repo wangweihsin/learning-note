@@ -65,18 +65,15 @@ ___
 ## 👻week1
 
 - 課程介紹&評分規則
-
 - [PPT](https://docs.google.com/presentation/d/e/2PACX-1vQyAFfgCNbBPBDWV_Xbahc2CtMBr_v-jfffAhaOWw2SntBRd2kJtLZZgdYoRfEZD7flCo4ilfO_msKX/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
 ## 👻week2
 ### LinkedList
 - 用node(結點)來處存資料，用pointer指向下一個node，藉此將多個node串連起來，形成Linked list。
-
 - 功能
   - 新增
   - 刪除
-  - 查詢
-  
+  - 查詢  
 - [補充連結](http://alrightchiu.github.io/SecondRound/linked-list-xin-zeng-zi-liao-shan-chu-zi-liao-fan-zhuan.html)
 - [PPT](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
@@ -175,4 +172,26 @@ ___
 - [我的筆記](https://github.com/wangweihsin/learning-note/tree/master/07.Depth-First%20Search)
 - [PPT](https://docs.google.com/presentation/d/e/2PACX-1vTma_vOZyE70O23KWw4I4Y78aAaT5fJSTq7Mae912kCwka_u5ZMWPoo14D86-x-57kZPbb6hAGktSW4/pub?start=false&loop=false&delayms=3000&slide=id.g7a5d8b85ee_0_0)
 
-## 👻week1
+## 👻week14
+### Kruskal
+- 克魯斯克爾
+- 一種尋找最小生成樹的演算法
+- [我的筆記](https://github.com/wangweihsin/learning-note/tree/master/09.Kruskal#kruskal%E5%85%8B%E9%AD%AF%E6%96%AF%E5%85%8B%E7%88%BE)
+- [PPT](https://docs.google.com/presentation/d/e/2PACX-1vTorNDEyhYA4ZAt5jEqOmFs2cQiUAYvkTp-R0DOn9B3c1MuUecV-a1wNakFIrJxA6AoUFGzbl3OQBIJ/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+## 👻week15
+### Dijkstra
+- 戴克斯特拉算法
+- 有點像BFS的升級版本，選當前的最佳選擇，找出最短路徑。
+- [我的筆記](https://github.com/wangweihsin/learning-note/tree/master/08.Dijkstra)
+- [PPT](https://docs.google.com/presentation/d/e/2PACX-1vTgHO5AkHJS6iN6bnnBMMdHv6E4rabnrC0KwyTRfjad8Ab3IQjbnGvZuQOjDC9t7nKqeroiwcuasJrI/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+## 👻week16
+- [同學期末發表](https://github.com/JetVayne/BCMB?fbclid=IwAR1-IJpN5KTa6tpS4J4SOIDBdeSf3u4Dj8UzepC619pbwYcn72KAlcGNrPc)
+- 他們真的很厲害，我還是乖乖準備期末考就好。
+
+## 👻week17
+- 期末考
+
+## 👻week18
+- 回家投票
