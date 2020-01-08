@@ -24,13 +24,31 @@ ___
 
 - [MergeSort與HeapSort比較](https://github.com/wangweihsin/learning-note/blob/master/HW2/merge%20sort%E8%88%87heap%20sort%E6%AF%94%E8%BC%83.ipynb)
 
+## 🌟HW3
 
+- [BST(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW3/binary%20search%20tree%E7%AD%86%E8%A8%98.ipynb)
 
+- [BST(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW3/binary_search_tree_06170115.py)
 
+- [BST(新增刪除查詢修改)](https://github.com/wangweihsin/learning-note/blob/master/HW3/binary%20search%20tree%E6%96%B0%E5%A2%9E%E5%88%AA%E9%99%A4%E6%90%9C%E5%B0%8B%E4%BF%AE%E6%94%B9%E8%AA%AA%E6%98%8E.ipynb)
 
-1.[Dijkstra(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra_06170115.py)
+## 🌟HW4
 
-2.[Dijkstra(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra%26Kruskal%E7%AD%86%E8%A8%98.ipynb)
+- [Hash Table(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW4/Hash%20Table%E7%AD%86%E8%A8%98.ipynb)
+
+- [Hash Table(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW4/hash_table_06170115.py)
+
+## 🌟HW5
+
+- [BFS(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW5/Breadth-First%20Search%E7%AD%86%E8%A8%98.ipynb)
+
+- [BFS(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW5/BFS_06170115.py)
+
+## 🌟HW6
+
+- [Dijkstra(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra_06170115.py)
+
+- [Dijkstra(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra%26Kruskal%E7%AD%86%E8%A8%98.ipynb)
 
 # 自學作業
 
