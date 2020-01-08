@@ -1,11 +1,32 @@
-# ABOUT ME
-巨資三A 06170115 王唯馨
+# 🐈ABOUT ME
+我是王唯馨，家裡有兩個主子的貓奴，喜歡攝影跟旅行，最喜歡的國家是日本，目前輔系日文。
+___
+# 🐈Learnin-note
+這裡是我放資料結構筆記的地方，有上課內容、作業、跟自學刷題的東西，初次使用github，有哪裡做得不夠好請多包涵。
+___
+# 🐈 HW專區
+## 🌟HW1
+- [QuickSort(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW1/QuickSort.py)
 
-此為資料結構課程的筆記
+- [QuickSort(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW1/%E4%BD%9C%E6%A5%ADQuickSort.ipynb)
 
-# HW6(1/3) <--助教看這裡
+- [QuickSort2(補交)](https://github.com/wangweihsin/learning-note/blob/master/HW1/quicksort2.ipynb)
 
-[HW6資料夾](https://github.com/wangweihsin/learning-note/tree/master/HW6)
+## 🌟HW2
+
+- [MergeSort(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW2/merge%20sort%E7%AD%86%E8%A8%98.ipynb)
+
+- [MergeSort(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW2/merge_sort_06170115.py)
+
+- [Heap Sort(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW2/HeapSort%20%E7%AD%86%E8%A8%98.ipynb)
+
+- [Heap Sort(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW2/heap_sort_06170115.py)
+
+- [MergeSort與HeapSort比較](https://github.com/wangweihsin/learning-note/blob/master/HW2/merge%20sort%E8%88%87heap%20sort%E6%AF%94%E8%BC%83.ipynb)
+
+
+
+
 
 1.[Dijkstra(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra_06170115.py)
 
