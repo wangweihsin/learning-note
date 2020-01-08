@@ -49,7 +49,7 @@ ___
 - [Dijkstra(程式碼)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra_06170115.py)
 
 - [Dijkstra(流程圖)](https://github.com/wangweihsin/learning-note/blob/master/HW6/Dijkstra%26Kruskal%E7%AD%86%E8%A8%98.ipynb)
-__
+___
 # 🐈自學作業Leetcode
 
 - [Leetcode-1. Two Sum](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/%201.Two%20Sum.ipynb)
@@ -59,7 +59,7 @@ __
 - [Leetcode-9. Palindrome Numberr](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/9.%20Palindrome%20Number.ipynb)
 
 - [Leetcode-13. Roman to Integer](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/13.%20Roman%20to%20Integer.ipynb)
-__
+___
 # 🐈資料結構演算法
 
 ## 👻week1
@@ -70,9 +70,12 @@ __
 
 ## 👻week2
 ### LinkedList
+- 用node(結點)來處存資料，用pointer指向下一個node，藉此將多個node串連起來，形成Linked list。
+
+-功能
   - 新增
   - 刪除
   - 查詢
   
-  
+-[補充連結](http://alrightchiu.github.io/SecondRound/linked-list-xin-zeng-zi-liao-shan-chu-zi-liao-fan-zhuan.html)
 - [PPT](https://docs.google.com/presentation/d/e/2PACX-1vTB218-EdUZ5jpNz6Uv4TOZQc37Y281v128_aRcWC6EhkTQs5bS8fh7yysmcuzb9R2QPN6_PDshFWL_/pub?start=false&loop=false&delayms=3000&slide=id.p)
