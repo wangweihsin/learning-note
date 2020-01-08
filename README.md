@@ -196,6 +196,21 @@ ___
 ## 👻week18
 - 回家投票
 ___
+# 🐈Leetcode
+
+[Two Sum](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/%201.Two%20Sum.py)
+
+[Reverse Integer](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/7.%20Reverse%20Integer.py)
+
+[Palindrome Number](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/9.%20Palindrome%20Number.py)
+
+[Roman to Integer](https://github.com/wangweihsin/learning-note/blob/master/%E8%87%AA%E5%AD%B8%E4%BD%9C%E6%A5%AD:leetcode/13.%20Roman%20to%20Integer.py)
+
+[Longest Common Prefix](https://github.com/wangweihsin/learning-note/blob/master/Leetcode/14%23_LongestCommonPrefix_06170115.py)
+
+
+
+___
 # 🐈課程心得
 我覺得我們系上的課程規劃沒有做得很好，導致我們根本跟不上老師的上課進度，希望未來系上開課時應該先做好課程銜接。
 這堂課給我帶來了太大的壓力，老師跟助教的評分標準有些問題，反應過後也沒有結果，本來我對程式這塊算有興趣的，都被磨到沒興趣了。
