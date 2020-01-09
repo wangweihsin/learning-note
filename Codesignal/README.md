@@ -1,6 +1,6 @@
 # Codesignal
 
-我練習python的題目
+我練習python的題目，前幾題是選擇題就沒多寫學習歷程了。
 
 # 練習題目
 
